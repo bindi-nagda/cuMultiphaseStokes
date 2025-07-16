@@ -1,4 +1,4 @@
-# Adaptive Mesh Refinement for Multiphase Fluids
+# Adaptive Mesh Refinement for Multiphase Fluids (with GPU support)
 
 This repository contains the source code to simulate multiphase flows on adaptively refined grids. The solver implemented here is second order accuracte in $L^1$, $L^2$, $L^\infty$ norms for all solution variables of the Newtonian and non-Newtonian models. Our experiments demonstrate the solver is stable provided $\Delta t$ satisfies the imposed CFL condition. The solver can accurately resolve sharp gradients in the solution and uses an efficient multigrid preconditioner to solve the resulting saddle point system. This AMR solver offers substantial cost savings by using refined grids in areas of interest and using coarser grids elsewhere. 
 
